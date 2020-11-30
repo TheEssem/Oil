@@ -1,37 +1,36 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "oil",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Oil",
+  "description": "2) cover yourself in oil",
   "authors": [
-    "Me!"
+    "Essem"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://essem.space/",
+    "sources": "https://github.com/TheEssem/oil"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/oil/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "space.essem.oil.Oil"
+    ],
+    "client": [
+      "space.essem.oil.OilClient"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "minecraft": "1.16.x"
+    "fabric": "*"
   },
   "suggests": {
-    "another-mod": "*"
+    "minecraft": "1.16.x"
   }
 }
