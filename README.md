@@ -1,7 +1,7 @@
 # Oil
 Cover yourself in oil.
 
-![instructions](https://raw.githubusercontent.com/TheEssem/Oil/master/oil.jpg)
+![instructions](https://raw.githubusercontent.com/TheEssem/Oil/main/oil.jpg)
 
 ## Build
 
